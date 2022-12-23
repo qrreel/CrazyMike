@@ -2,7 +2,7 @@
 Simple 2D platform game
 
 
-## game control:
+## Game control:
 a - move left;</br>
 d - move right;</br>
 space - jump;</br>
