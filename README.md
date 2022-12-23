@@ -2,10 +2,10 @@
 Simple 2D platform game
 
 
-## Moves:
-a - move left;
-d - move right;
-space - jump;
+## game control:
+a - move left;</br>
+d - move right;</br>
+space - jump;</br>
 left ctrl / 1st mouse button - attack;
 
 ## Hint:
