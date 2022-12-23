@@ -1,0 +1,67 @@
+{
+    "name": "Platformer",
+    "maps": [
+        {
+            "name": "Player",
+            "id": "9ad4146e-5fe3-4a27-acc1-26663a540ab8",
+            "actions": [
+                {
+                    "name": "Move",
+                    "type": "Button",
+                    "id": "3d56baae-05d7-46fe-a197-d7f75a08b78f",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "832c88c6-9393-4278-a3a2-63fb06f74c63",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "Horizontal movement",
+                    "id": "7131006a-3b76-46a3-9ac5-a72c31b54b01",
+                    "path": "1DAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "negative",
+                    "id": "7ba789dc-d9a3-445d-80bf-149f944f581e",
+                    "path": "<Keyboard>/a",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "positive",
+                    "id": "0ce36a3a-172e-4bf7-bd8f-385eee3b87ba",
+                    "path": "<Keyboard>/d",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
